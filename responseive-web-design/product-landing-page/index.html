@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Landing Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+</head>
+<body>
+    <!-- Your product landing page should have a header element with a corresponding id="header" -->
+    <header id="header" class="sticky">
+    <!-- You can see an image within the header element with a corresponding id="header-img" (A logo would make a good image here)    -->
+    <img id="header-img" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/product-landing-page-logo.png" alt="logo"></img>
+    <!-- Not done 👇🏽 -->
+    <!-- Within the #header element, you can see a nav element with a corresponding id="nav-bar" -->
+    <!-- The navbar should always be at the top of the viewport -->
+    <nav id="nav-bar">
+        <!-- You can see at least three clickable elements inside the nav element, each with the class nav-link -->
+        <!-- Not done 👇🏽 -->
+        <!-- When you click a .nav-link button in the nav element, you are taken to the corresponding section of the landing page -->
+        <a href="#pricings" class="nav-link p-2">Pricing</a>
+        <a href="#video" class="nav-link p-2">How It Works</a>
+        <a href="#features" class="nav-link p-2">Features</a>
+    </nav>
+    </header>
+
+    <div class="container-fluid">
+    <div class="jumbotron banner">
+        <!-- Your landing page has a form element with a corresponding id="form" -->
+        <form action="https://www.freecodecamp.com/email-submit" id="form">
+            <h2>Handcrafted, home-made masterpieces</h2>
+            <!-- The #email input field should have placeholder text to let users know what the field is for
+            The #email input field uses HTML5 validation to confirm that the entered text is an email address -->
+            <input type="email" class="form-control" name="email" id="email" placeholder="Enter your email address">
+            <!-- Within the form, there is a submit input with a corresponding id="submit"
+    When        you click the #submit element, the email is submitted to a static page (use this mock URL: https://www.freecodecamp.com/email-submit) -->
+            <input type="submit" id="submit" value="Get Started" class="btn btn-primary">
+        </form>
+    </div>
+
+    <div id="features">
+    <div class="feature row">
+        <div class="feature-icon col-xs-12 col-md-2">
+            <i class="fa fa-3x fa-fire"></i>
+        </div>
+        <div class="feature-content col-xs-12 col-md-10">
+            <div>
+            <h3>Premium Materials</h3>
+            <p>Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your purchase.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="feature row">
+        <div class="feature-icon col-xs-12 col-md-2">
+            <i class="fa fa-3x fa-truck"></i>
+        </div>
+        <div class="feature-content col-xs-12 col-md-10">
+            <div>
+            <h3>Fast Shipping
+            </h3>
+            <p>We make sure you recieve your trombone as soon as we have finished making it. We also provide free returns if you are not satisfied.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="feature row">
+        <div class="feature-icon col-xs-12 col-md-2">
+            <i class="fa fa-3x fa-battery"></i>
+        </div>
+        <div class="feature-content col-xs-12 col-md-10">
+            <div>
+            <h3>Quality Assurance
+            </h3>
+            <p>For every purchase you make, we will ensure there are no damages or faults and we will check and test the pitch of your instrument.</p>
+            </div>
+        </div>
+    </div>
+
+    </div>
+
+    <!-- You can watch an embedded product video with id="video" -->
+    <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/y8Yv4pnO7qc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    <div id="pricings" class="row mt-3">
+
+        <div id="pricing" class="col-md-4 col-xs-12">
+            <div class="card">
+                <h3 class="card-header text-center">TENOR TROMBONE</h3>
+                <div class="card-body">
+                    <p class="text-center">$600</p>
+                    <p class="text-center">Lorem ipsum.</p>
+                    <p class="text-center">Lorem ipsum.</p>
+                    <p class="text-center">Lorem ipsum.</p>
+                    <button class="btn btn-secondary">Select</button>
+                </div>
+            </div>
+        </div>
+
+        <div id="pricing" class="col-md-4 col-xs-12">
+            <div class="card">
+                <h3 class="card-header text-center">TENOR TROMBONE</h3>
+                <div class="card-body">
+                    <p class="text-center">$600</p>
+                    <p class="text-center">Lorem ipsum.</p>
+                    <p class="text-center">Lorem ipsum.</p>
+                    <p class="text-center">Lorem ipsum.</p>
+                    <button class="btn btn-secondary">Select</button>
+                </div>
+            </div>
+        </div>
+
+        <div id="pricing" class="col-md-4 col-xs-12">
+            <div class="card">
+                <h3 class="card-header text-center">TENOR TROMBONE</h3>
+                <div class="card-body">
+                    <p class="text-center">$600</p>
+                    <p class="text-center">Lorem ipsum.</p>
+                    <p class="text-center">Lorem ipsum.</p>
+                    <p class="text-center">Lorem ipsum.</p>
+                    <button class="btn btn-secondary">Select</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    </div>
+
+    <div class="footer-copyright text-center py-3">© 2022 Copyright:
+        <a href="/"> Original Trombones</a>
+      </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</body>
+</html>
